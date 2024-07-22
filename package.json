@@ -1,0 +1,25 @@
+{
+  "name": "threejs-example",
+  "version": "1.0.0",
+  "description": "Demo basic scene",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "threejs",
+    "example"
+  ],
+  "dependencies": {
+    "opencv4nodejs": "^5.6.0",
+    "three": "^0.159.0",
+    "three-addons": "^1.2.0"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": "1"
+  }
+}
